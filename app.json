@@ -1,8 +1,13 @@
 {
   "expo": {
-    "name": "sportsvarexpo",
-    "slug": "sportsvarexpo",
+    "name": "sportsvar",
+    "slug": "sportsvar",
+"platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
+
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,9 +22,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sportsvar.sportsvar",
+      "buildNumber": "1.0.0"
     },
     "android": {
+       "package": "com.sportsvar.sportsvar",
+      "versionCode": 1,
+      
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
